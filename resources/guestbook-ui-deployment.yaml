@@ -13,9 +13,10 @@ spec:
       labels:
         app: guestbook-ui
         eti: zaguri jbkjb.kb
+        
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2CDMCLEDMS
         name: guestbook-ui-test
         ports:
         - containerPort: 80
