@@ -13,10 +13,10 @@ spec:
       labels:
         app: guestbook-ui-staging
         eti: dffdkkffff
-        
+
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
-        name: guestbook-ui-staging-test
-        ports:
-        - containerPort: 80
+        - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+          name: guestbook-ui-staging-test
+          ports:
+            - containerPort: 80
