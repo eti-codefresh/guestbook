@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-ui-staging-2
+  name: guestbook-ui-staging
 spec:
   replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: guestbook-ui-staging-2
+      app: guestbook-ui-staging
   template:
     metadata:
       labels:
-        app: guestbook-ui-staging-2
+        app: guestbook-ui-staging
         eti: dffdkkffff
 
     spec:
