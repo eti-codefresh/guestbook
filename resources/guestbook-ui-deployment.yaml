@@ -12,7 +12,7 @@ spec:
     metadata:
       labels:
         app: guestbook-ui
-        eti: vvv
+        eti: vvvvvv
         
     spec:
       containers:
